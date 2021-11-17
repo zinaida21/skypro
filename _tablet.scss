@@ -1,0 +1,29 @@
+@media (max-width: 1240px) {
+    $gapItem: 28px;
+    .catalog__items, .offer__items {
+        gap: $gapItem;
+    }
+    .catalog__item {
+        width: 378px;
+    }
+    .footer {
+        padding-top: 32px;
+        padding-bottom: 39px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+    .cart__products {
+        flex-wrap: wrap;
+        margin-bottom: 64px;
+    }
+    .products {
+        margin-bottom: 64px;
+    }
+    .furniture__item {
+        height:268px;
+        font-size: 34px;
+        line-height: 41px;
+    }
+}
